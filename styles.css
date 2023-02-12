@@ -129,20 +129,43 @@ body {
 }
 
 .footer {
-    background-color: #3882F6;
     display: flex;
-    margin: 0px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
+    justify-content: center;
+    alignt-items: center;
 }
 
 .footer-container {
     display: flex;
-     /* margin: 0px 100px 100px 100px; */
+    background-color: #3882F6;
+    flex: 1;
+    height: 125px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    border-radius: 5px;
 }
 
 .footer-text {
+    color: #F9FAF8;
+   
 
 }
 
+.action {
+    font-weight: bold;
+}
+
 .btn.sign-up-low {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid;
+    border-color: #F9FAF8;
+    margin-top: 5px;
+    font-size: 18px;
 
 }
