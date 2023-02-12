@@ -49,10 +49,24 @@ html {
 }
 
 .section-three {
+    display: flex;
+    flex-direction: column;
+}
 
+.thor {
+    flex: 1;
+    align-self: flex-end;
 }
 
 .footer {
+
+}
+
+.footer-container {
+
+}
+
+.footer-text {
 
 }
 
