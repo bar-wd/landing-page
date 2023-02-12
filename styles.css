@@ -8,11 +8,21 @@ html {
   body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
   }
 
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+  }
+
+  .header-logo {
+    font-size: 24px;
+    font-color: #F9FAF8;
   }
 
 .header-links {
@@ -22,6 +32,9 @@ html {
 
 .section-one {
     display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+ 
 }
 
 .section-one-left {
