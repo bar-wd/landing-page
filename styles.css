@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 15px 100px 100px 100px;
+    padding: 15px 200px 150px 200px;
     
   }
 
@@ -36,9 +36,8 @@ body {
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 200px 200px 200px;
     gap: 20px;
-    align-content: center;
     justify-content: center;
 }
 
@@ -46,6 +45,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 350px;
 }
 
 .section-one-left {
@@ -76,41 +76,43 @@ body {
 
 .section-two {
     background-color: #F9FAF8;
-
+    padding: 0px 400px 0px 400px;
 }
 
 .random {
     text-align: center;
     font-weight: bold;
     color: #1F2937;
-    font-size: 24px;
+    font-size: 36px;
     padding: 30px;
 }
 
 .empty-containers {
     display: flex;
-    gap: 25px;
+    gap: 40px;
     justify-content: center;
-    margin: 0px 100px 100px 100px;
+    align-items: center;
+    /* padding: 0px 400px 0px 400px; */
 }
 
 .empty-container {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     border: solid;
-    border-radius: 5px;
+    border-width: 4px;
+    border-radius: 10px;
     border-color: #3882F6;
 }
 
 .text {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .section-three {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 100px 100px 100px 100px;
+    padding: 150px 400px 150px 400px;
     justify-content: center;
     gap: 10px;
 }
@@ -119,18 +121,20 @@ body {
     align-self: flex-end;
     font-weight: bold;
     color: #1F2937;
+    font-size: 24px;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
+    /* max-width: 400px; */
 }
 
 .footer {
     display: flex;
-    padding: 100px 100px 100px 100px;
+    padding: 150px 200px 150px 200px;
     justify-content: center;
     alignt-items: center;
 }
@@ -139,21 +143,20 @@ body {
     display: flex;
     background-color: #3882F6;
     flex: 1;
-    height: 125px;
+    height: 175px;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 80px;
     border-radius: 5px;
 }
 
 .footer-text {
     color: #F9FAF8;
-   
-
 }
 
 .action {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .btn.sign-up-low {
