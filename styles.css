@@ -75,6 +75,7 @@ body {
 }
 
 .section-two {
+    background-color: #F9FAF8;
 
 }
 
@@ -108,19 +109,34 @@ body {
 .section-three {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 100px 100px 100px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .thor {
-    flex: 1;
     align-self: flex-end;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .footer {
-
+    background-color: #3882F6;
+    display: flex;
+    margin: 0px 100px 100px 100px;
 }
 
 .footer-container {
-
+    display: flex;
+     /* margin: 0px 100px 100px 100px; */
 }
 
 .footer-text {
