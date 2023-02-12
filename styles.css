@@ -1,4 +1,6 @@
-p {
-    color: blue;
-    font-weight: bold;
-}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
