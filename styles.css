@@ -38,7 +38,8 @@ body {
     color: #E5E7EB;
     padding: 0px 100px 100px 100px;
     gap: 20px;
- 
+    align-content: center;
+    justify-content: center;
 }
 
 .awesome {
@@ -67,26 +68,43 @@ body {
     font-weight: bold;
     width: 125px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
-}
-
-.section-one-right {
-
+    margin-top: 5px;
+    font-size: 18px;
 }
 
 .section-two {
 
 }
 
+.random {
+    text-align: center;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 24px;
+    padding: 30px;
+}
+
 .empty-containers {
     display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin: 0px 100px 100px 100px;
 }
 
 .empty-container {
-
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #3882F6;
 }
 
+.text {
+    width: 100px;
+    height: 100px;
+}
 .section-three {
     display: flex;
     flex-direction: column;
