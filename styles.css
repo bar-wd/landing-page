@@ -5,7 +5,7 @@ html {
     box-sizing: inherit;
   }
 
-  body {
+body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
@@ -17,32 +17,58 @@ html {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 15px 100px 100px 100px;
     
   }
 
   .header-logo {
     font-size: 24px;
     font-color: #F9FAF8;
+    font-weight: bold;
   }
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .section-one {
     display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 0px 100px 100px 100px;
+    gap: 20px;
  
 }
 
-.section-one-left {
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
+.section-one-left {
+    /* max-width: 400px; */
+    flex: 1;
+}
+
+.section-one-right {
+    background-color: grey;
+    color: #F9FAF8;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn.sign-up-high {
-
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 125px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
 }
 
 .section-one-right {
